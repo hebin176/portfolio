@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hevendra Khatri - Bridge SE & Japanese Language Professional</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Background Pattern -->
+    <div class="background-pattern"></div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <div class="logo-icon">HK</div>
+            <!-- <span
+              class="logo-text"
+              data-en="Hevendra Khatri"
+              data-ja="へべンドラ カトリ"
+              >Vivek Manandhar</span -->
+          </div>
+
+          <nav class="nav">
+            <a href="#home" data-en="Home" data-ja="ホーム">Home</a>
+            <a href="#about" data-en="About" data-ja="プロフィール">About</a>
+            <a href="#experience" data-en="Experience" data-ja="経歴"
+              >Experience</a
+            >
+            <a href="#projects" data-en="Projects" data-ja="プロジェクト"
+              >Projects</a
+            >
+            <a href="#skills" data-en="Skills" data-ja="スキル">Skills</a>
+          </nav>
+
+          <div class="header-actions">
+            <button class="language-toggle" onclick="toggleLanguage()">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="m5 8 6 6" />
+                <path d="m4 14 6-6 2-3" />
+                <path d="M2 5h12" />
+                <path d="M7 2h1" />
+                <path d="m22 22-5-10-5 10" />
+                <path d="M14 18h6" />
+              </svg>
+              <span class="language-text" data-en="日本語" data-ja="English"
+                >日本語</span
+              >
+            </button>
+            <button class="btn btn-primary" onclick="scrollToContact()">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              <span data-en="Contact Me" data-ja="お問い合わせ"
+                >Contact Me</span
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content fade-in">
+            <!-- Profile Image -->
+            <div class="profile-image">
+              <img src="hebin.png" alt="Vivek Manandhar" class="profile-img" />
+              <div class="status-indicator"></div>
+            </div>
+
+            <!-- Hero Text -->
+            <div class="hero-text">
+              <h1
+                class="hero-title"
+                data-en="Hevendra Khatri"
+                data-ja="へべンドラ カトリ"
+              >
+                Vivek Manandhar
+              </h1>
+              <div class="hero-subtitle-wrapper">
+                <div class="divider"></div>
+                <p
+                  class="hero-subtitle"
+                  data-en="Bridge SE & Japanese Language Professional"
+                  data-ja="ブリッジSE・日本語専門プロフェッショナル"
+                >
+                  Bridge SE & Japanese Language Professional
+                </p>
+                <div class="divider"></div>
+              </div>
+              <p
+                class="hero-description"
+                data-en="Connecting cultures and technologies through seamless communication between Japanese clients and international development teams"
+                data-ja="日本のお客様とグローバル開発チームをつなぎ、文化と技術の架け橋を築きます。"
+              >
+                Connecting cultures and technologies through seamless
+                communication between Japanese clients and international
+                development teams
+              </p>
+            </div>
+
+            <!-- Hero Buttons -->
+            <div class="hero-buttons">
+              <!-- <button class="btn btn-primary btn-lg">
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7,10 12,15 17,10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                <span data-en="Download Resume" data-ja="履歴書ダウンロード"
+                  >Download Resume</span
+                >
+              </button> -->
+              <button
+                class="btn btn-outline btn-lg"
+                onclick="scrollToProjects()"
+              >
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  />
+                  <polyline points="15,3 21,3 21,9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                <span data-en="View Projects" data-ja="プロジェクト表示"
+                  >View Projects</span
+                >
+              </button>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats">
+              <div class="stat-card">
+                <svg
+                  class="stat-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                  <line x1="16" y1="2" x2="16" y2="6" />
+                  <line x1="8" y1="2" x2="8" y2="6" />
+                  <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+                <div class="stat-number">7+</div>
+                <div
+                  class="stat-label"
+                  data-en="Years Experience"
+                  data-ja="経験年数"
+                >
+                  Years Experience
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <svg
+                  class="stat-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                  <line x1="8" y1="21" x2="16" y2="21" />
+                  <line x1="12" y1="17" x2="12" y2="21" />
+                </svg>
+                <div class="stat-number">50+</div>
+                <div
+                  class="stat-label"
+                  data-en="Projects Completed"
+                  data-ja="完了プロジェクト数"
+                >
+                  Projects Completed
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <svg
+                  class="stat-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <line x1="2" y1="12" x2="22" y2="12" />
+                  <path
+                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                  />
+                </svg>
+                <div class="stat-number">4</div>
+                <div class="stat-label" data-en="Languages" data-ja="言語">
+                  Languages
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <svg
+                  class="stat-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="8" r="7" />
+                  <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88" />
+                </svg>
+                <div class="stat-number">100%</div>
+                <div
+                  class="stat-label"
+                  data-en="Client Satisfaction"
+                  data-ja="顧客満足度"
+                >
+                  Client Satisfaction
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-en="About Me" data-ja="プロフィールについて">About Me</h2>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="about-content">
+            <div class="about-text">
+              <p
+                class="about-paragraph"
+                data-en="For the past seven years, I have worked as a Bridge SE and Project Manager, facilitating seamless collaboration between Japanese clients and development teams in Nepal. Leveraging the Japanese language proficiency and cultural understanding I developed during my seven years living in Japan, I ensure smooth communication and the delivery of high-quality outcomes."
+                data-ja="私は約7年間、日本のクライアントとネパールの開発チームの橋渡し役として、ブリッジSE・PMの業務に従事してきました。日本滞在中に培った高度な日本語力と深い文化理解を活かし、円滑なコミュニケーションと高品質な成果物の提供を実現しています。"
+              >
+                As a dedicated Bridge Systems Engineer and Japanese Language
+                Professional, I specialize in facilitating seamless
+                communication between international teams and Japanese clients.
+              </p>
+
+              <p
+                class="about-paragraph"
+                data-en="In addition to hands-on experience with web front-end development, I am skilled in CMS (WordPress) setup, design reviews, developer feedback, deadline management, and content updates. Moving forward, I aim to contribute to meaningful projects by enabling trustworthy and efficient collaboration in multilingual and multicultural environments."
+                data-ja="Webフロントエンドの実装経験に加え、CMS（WordPress）の構築、デザイン確認、開発者へのフィードバック、納期管理、コンテンツ更新代行など、幅広い業務に対応可能です。今後も多言語・多文化環境において、信頼性の高い連携を通じて価値あるプロジェクトの推進に貢献していきたいと考えています。
+
+"
+              >
+                With extensive experience in project management and web
+                development, I bridge the gap between technical requirements and
+                business objectives, ensuring successful project delivery across
+                cultural and linguistic boundaries.
+              </p>
+
+              <div class="availability-card">
+                <div class="availability-item">
+                  <svg
+                    class="icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <span
+                    data-en="Available for remote work globally"
+                    data-ja="グローバルでリモートワーク対応可能"
+                    >Available for remote work globally</span
+                  >
+                </div>
+                <div class="availability-item">
+                  <svg
+                    class="icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                    />
+                  </svg>
+                  <span
+                    data-en="Japanese business hours preferred"
+                    data-ja="日本のビジネス時間を優先"
+                    >Japanese business hours preferred</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="services">
+              <div class="service-card">
+                <div class="service-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    />
+                  </svg>
+                </div>
+                <h3
+                  data-en="Japanese Business Communication"
+                  data-ja="日本語ビジネスコミュニケーション"
+                >
+                  Japanese Business Communication
+                </h3>
+                <p
+                  data-en="Native-level Japanese communication for business meetings and client relations"
+                  data-ja="ビジネス会議やクライアント関係におけるネイティブレベルの日本語コミュニケーション"
+                >
+                  Native-level Japanese communication for business meetings and
+                  client relations
+                </p>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M3 21h18" />
+                    <path d="M5 21V7l8-4v18" />
+                    <path d="M19 21V11l-6-4" />
+                  </svg>
+                </div>
+                <h3 data-en="Bridge SE Services" data-ja="ブリッジSEサービス">
+                  Bridge SE Services
+                </h3>
+                <p
+                  data-en="Technical coordination between Japanese and international development teams"
+                  data-ja="日本と国際開発チーム間の技術的調整"
+                >
+                  Technical coordination between Japanese and international
+                  development teams
+                </p>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                </div>
+                <h3 data-en="Project Management" data-ja="プロジェクト管理">
+                  Project Management
+                </h3>
+                <p
+                  data-en="End-to-end project coordination with focus on cross-cultural teams"
+                  data-ja="多文化チームに焦点を当てたエンドツーエンドのプロジェクト調整"
+                >
+                  End-to-end project coordination with focus on cross-cultural
+                  teams
+                </p>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                    />
+                  </svg>
+                </div>
+                <h3 data-en="Web Direction" data-ja="Webディレクション">
+                  Web Direction
+                </h3>
+                <p
+                  data-en="Strategic web development guidance and technical leadership"
+                  data-ja="戦略的Web開発ガイダンスと技術的リーダーシップ"
+                >
+                  Strategic web development guidance and technical leadership
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="experience">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-en="Professional Experience" data-ja="職歴">
+              Professional Experience
+            </h2>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="experience-list">
+            <div class="experience-card">
+              <div class="experience-content">
+                <div class="experience-info">
+                  <div class="experience-header">
+                    <div class="experience-icon">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path d="M3 21h18" />
+                        <path d="M5 21V7l8-4v18" />
+                        <path d="M19 21V11l-6-4" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3
+                        data-en="IT business consultant・Client Manager"
+                        data-ja="ビジネスコンサルタント兼クライアントマネジャー"
+                      >
+                        IT business consultant・Client Manager
+                      </h3>
+                      <p class="company" data-en="Tai Inc" data-ja="Tai Inc">
+                        Tai Inc On-site
+                      </p>
+                      <p
+                        class="job-type"
+                        data-en="Permanent, Full-time"
+                        data-ja="正社員・フルタイム         ※日本企業向けオフショア開発を行うネパール拠点のIT企業"
+                      >
+                        Permanent, Full-time
+                      </p>
+                    </div>
+                  </div>
+                  <p
+                    class="experience-description"
+                    data-en="Leading cross-cultural communication between Japanese clients and international development teams. Specializing in requirement gathering, technical coordination, and project management to ensure seamless project delivery."
+                    data-ja="日本のクライアントと国際開発チーム間の多文化コミュニケーションをリード。要件収集、技術調整、プロジェクト管理を専門とし、シームレスなプロジェクト実現を保証。"
+                  >
+                    Leading cross-cultural communication between Japanese
+                    clients and international development teams. Specializing in
+                    requirement gathering, technical coordination, and project
+                    management to ensure seamless project delivery.
+                  </p>
+                  <ul class="experience-highlights">
+                    <li
+                      data-en="Requirement analysis, implementation proposals, and documentation"
+                      data-ja="要件ヒアリング・実装提案、およびドキュメント作成"
+                    >
+                      Requirement analysis, implementation proposals, and
+                      documentation
+                    </li>
+                    <li
+                      data-en="Bridging between client and development team, managing progress and risks"
+                      data-ja="顧客と開発チーム間のブリッジ業務・進捗／リスク管理"
+                    >
+                      Bridging between client and development team, managing
+                      progress and risks
+                    </li>
+                    <li
+                      data-en="Facilitating meetings and handling reporting"
+                      data-ja="会議のファシリテーションと報告対応"
+                    >
+                      Facilitating meetings and handling reporting
+                    </li>
+                    <li
+                      data-en="Test planning and execution, including test cases and behavior checks"
+                      data-ja="テスト計画・実施（テストケース作成、挙動確認含む）"
+                    >
+                      Test planning and execution, including test cases and
+                      behavior checks
+                    </li>
+                    <li
+                      data-en="Managing delivery schedules, estimates, SEO, and web direction"
+                      data-ja="納期・見積管理、SEO対応やWebディレクション業務"
+                    >
+                      Managing delivery schedules, estimates, SEO, and web
+                      direction
+                    </li>
+                  </ul>
+                </div>
+                <div class="experience-period">2020年 - 現在</div>
+              </div>
+            </div>
+
+            <div class="experience-card">
+              <div class="experience-content">
+                <div class="experience-info">
+                  <div class="experience-header">
+                    <div class="experience-icon">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <rect
+                          x="2"
+                          y="3"
+                          width="20"
+                          height="14"
+                          rx="2"
+                          ry="2"
+                        />
+                        <line x1="8" y1="21" x2="16" y2="21" />
+                        <line x1="12" y1="17" x2="12" y2="21" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3
+                        data-en="Web Director & Project Manager"
+                        data-ja="Webディレクター・プロジェクトマネージャー"
+                      >
+                        Web Director & Project Manager
+                      </h3>
+                      <p
+                        class="company"
+                        data-en="Parijat Infotech Pvt.Ltd"
+                        data-ja="Parijat Infotech Pvt.Ltd"
+                      >
+                        Parijat Infotech Pvt.Ltd
+                      </p>
+                      <p
+                        class="job-type"
+                        data-en="Permanent, Full-time"
+                        data-ja="正社員・フルタイム  ※日本企業向けオフショア開発を行うネパール拠点のIT企業"
+                      >
+                        Permanent, Full-time
+                      </p>
+                    </div>
+                  </div>
+                  <p
+                    class="experience-description"
+                    data-en="Directed web development projects from conception to deployment, managing both technical requirements and client relationships. Specialized in creating user-centered digital experiences."
+                    data-ja="企画から展開まで、Web開発プロジェクトを指導し、技術要件とクライアント関係の両方を管理。ユーザー中心のデジタル体験の創造を専門。"
+                  >
+                    Directed web development projects from conception to
+                    deployment, managing both technical requirements and client
+                    relationships. Specialized in creating user-centered digital
+                    experiences.
+                  </p>
+                  <ul class="experience-highlights">
+                    <li
+                      data-en="Website design, coding, and CMS development using WordPress"
+                      data-ja="ホームページのデザイン・コーディング、およびCMS構築（WordPress）"
+                    >
+                      Website design, coding, and CMS development using
+                      WordPress
+                    </li>
+                    <li
+                      data-en="Client communication (meetings, requirements definition, and specifications)"
+                      data-ja="クライアント対応（打ち合わせ、要件定義、仕様書作成）"
+                    >
+                      Client communication (meetings, requirements definition,
+                      and specifications)
+                    </li>
+                    <li
+                      data-en="Website operation, progress management, and direction"
+                      data-ja="Webサイト運営・進捗管理・ディレクション業務"
+                    >
+                      Website operation, progress management, and direction
+                    </li>
+                    <li
+                      data-en="Team management (approx. 20 members)"
+                      data-ja="チームマネジメント（約20名）"
+                    >
+                      Team management (approx. 20 members)
+                    </li>
+                  </ul>
+                </div>
+                <div class="experience-period">2018年 - 2020年</div>
+              </div>
+            </div>
+
+            <div class="experience-card">
+              <div class="experience-content">
+                <div class="experience-info">
+                  <div class="experience-header">
+                    <div class="experience-icon">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <polyline points="16,18 22,12 16,6" />
+                        <polyline points="8,6 2,12 8,18" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3
+                        data-en="translator・project collaborator"
+                        data-ja="翻訳・通訳・プロジェクトコラボレータ"
+                      >
+                        project collaborator
+                      </h3>
+                      <p
+                        class="company"
+                        data-en="M&A Education Pvt Ltd"
+                        data-ja="M&A Education Pvt Ltd "
+                      >
+                        Web Development Studio • Remote
+                      </p>
+                      <p
+                        class="job-type"
+                        data-en="Permanent, Full-time"
+                        data-ja="正社員・フルタイム  ※教育機関"
+                      >
+                        Permanent, Full-time
+                      </p>
+                    </div>
+                  </div>
+                  <p
+                    class="experience-description"
+                    data-en="Developed responsive web applications using modern frontend technologies. Collaborated with designers and backend developers to create seamless user experiences."
+                    data-ja="現代的なフロントエンド技術を使用してレスポンシブWebアプリケーションを開発。デザイナーやバックエンド開発者と協力し、シームレスなユーザー体験を創造。"
+                  >
+                    Developed responsive web applications using modern frontend
+                    technologies. Collaborated with designers and backend
+                    developers to create seamless user experiences.
+                  </p>
+                  <ul class="experience-highlights">
+                    <li
+                      data-en="Planning and conducting Japanese lessons (beginner to intermediate)"
+                      data-ja="日本語の授業計画・教材作成・授業実施（初級〜中級）"
+                    >
+                      Planning and conducting Japanese lessons (beginner to
+                      intermediate)
+                    </li>
+                    <li
+                      data-en="Providing academic guidance, monitoring progress, and individual support"
+                      data-ja="学生への学習指導・進捗管理・個別サポート"
+                    >
+                      Providing academic guidance, monitoring progress, and
+                      individual support
+                    </li>
+                    <li
+                      data-en="Preparing students for JLPT, NAT, and other exams"
+                      data-ja="日本語能力試験（JLPT／NATなど）対策指導"
+                    >
+                      Preparing students for JLPT, NAT, and other exams
+                    </li>
+                    <li
+                      data-en="Supporting career/school preparation (interview practice, resume review)"
+                      data-ja="面接練習・履歴書添削など、日本での就労・進学準備支援"
+                    >
+                      Supporting career/school preparation (interview practice,
+                      resume review)
+                    </li>
+                  </ul>
+                </div>
+                <div class="experience-period">2017年 - 2018年</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-en="Featured Projects" data-ja="主要プロジェクト">
+              Featured Projects
+            </h2>
+            <div class="section-divider"></div>
+            <p
+              class="section-subtitle"
+              data-en="Real-world applications I've delivered as Project Manager and Bridge SE"
+              data-ja="プロジェクトマネージャー・ブリッジSEとして実現した実際のアプリケーション"
+            >
+              Real-world applications I've delivered as Project Manager and
+              Bridge SE
+            </p>
+          </div>
+
+          <div class="projects-list">
+            <!-- Job Matching Platform -->
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop"
+                  alt="Job search and recruitment"
+                />
+                <div class="project-overlay"></div>
+                <div class="project-header">
+                  <div class="project-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="11" cy="11" r="8" />
+                      <path d="m21 21-4.35-4.35" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3
+                      data-en="Short-term Job Matching Platform"
+                      data-ja="単発バイトマッチングプラットフォーム"
+                    >
+                      Short-term Job Matching Platform
+                    </h3>
+                    <span
+                      class="project-role"
+                      data-en="Project Manager & Bridge SE"
+                      data-ja="プロジェクトマネージャー兼ブリッジ業務"
+                      >Project Manager & Bridge SE</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p
+                  class="project-description"
+                  data-en="A comprehensive job matching web application for Japanese clients, similar to Timee and Harome Mercari platforms."
+                  data-ja="タイミーやハロメルカリ等と同様の日本のお客様向け単発バイトマッチングウェブアプリケーション。"
+                >
+                  A comprehensive job matching web application for Japanese
+                  clients, similar to Timee and Harome Mercari platforms.
+                </p>
+
+                <div class="project-details">
+                  <div class="project-section">
+                    <h4 data-en="Key Responsibilities" data-ja="担当業務">
+                      Key Responsibilities
+                    </h4>
+                    <ul>
+                      <li
+                        data-en="Bridged communication between Japanese clients and Nepal development team"
+                        data-ja="日本のお客様とネパール開発チーム間のコミュニケーション仲介"
+                      >
+                        Bridged communication between Japanese clients and Nepal
+                        development team
+                      </li>
+                      <li
+                        data-en="Requirement hearing, specification coordination, implementation proposals"
+                        data-ja="要件ヒアリング、仕様調整、実装提案"
+                      >
+                        Requirement hearing, specification coordination,
+                        implementation proposals
+                      </li>
+                      <li
+                        data-en="Progress management and quality control"
+                        data-ja="進行管理、品質管理"
+                      >
+                        Progress management and quality control
+                      </li>
+                      <li
+                        data-en="Facilitation and report creation as Web Director"
+                        data-ja="Webディレクターとしてファシリテーションや報告書作成"
+                      >
+                        Facilitation and report creation as Web Director
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="project-section">
+                    <h4 data-en="Key Features" data-ja="主な機能">
+                      Key Features
+                    </h4>
+                    <ul>
+                      <li data-en="Job search functionality" data-ja="求人検索">
+                        Job search functionality
+                      </li>
+                      <li
+                        data-en="Instant application & decision system"
+                        data-ja="即時応募・即決機能"
+                      >
+                        Instant application & decision system
+                      </li>
+                      <li
+                        data-en="Work management (time tracking & reports)"
+                        data-ja="勤務管理（打刻・レポート）"
+                      >
+                        Work management (time tracking & reports)
+                      </li>
+                      <li
+                        data-en="Notifications & reminders"
+                        data-ja="通知・リマインド"
+                      >
+                        Notifications & reminders
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="project-technologies">
+                  <h4 data-en="Technologies Used" data-ja="使用技術">
+                    Technologies Used
+                  </h4>
+                  <div class="tech-tags">
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">Material UI</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">Figma</span>
+                    <span class="tech-tag">GitLab</span>
+                    <span class="tech-tag">CI/CD</span>
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">Jira</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Artist Matching Platform -->
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop"
+                  alt="Music and photography artists"
+                />
+                <div class="project-overlay"></div>
+                <div class="project-header">
+                  <div class="project-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polygon
+                        points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3
+                      data-en="Professional Artist Matching Platform"
+                      data-ja="音楽家・写真家向けマッチングプラットフォーム"
+                    >
+                      Professional Artist Matching Platform
+                    </h3>
+                    <span
+                      class="project-role"
+                      data-en="Project Manager & Frontend Developer"
+                      data-ja="プロジェクトマネージャー・フロントエンド開発"
+                      >Project Manager & Frontend Developer</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p
+                  class="project-description"
+                  data-en="A matching platform where professional musicians and photographers can register and be searched/requested by general users."
+                  data-ja="音楽家・写真家などのプロフェッショナルが登録し、一般ユーザーが検索・依頼できるマッチングプラットフォーム。"
+                >
+                  A matching platform where professional musicians and
+                  photographers can register and be searched/requested by
+                  general users.
+                </p>
+
+                <div class="project-details">
+                  <div class="project-section">
+                    <h4 data-en="Key Responsibilities" data-ja="担当業務">
+                      Key Responsibilities
+                    </h4>
+                    <ul>
+                      <li
+                        data-en="Customer relations (requirement hearing & documentation)"
+                        data-ja="顧客対応（要件ヒアリング・ドキュメント作成）"
+                      >
+                        Customer relations (requirement hearing & documentation)
+                      </li>
+                      <li
+                        data-en="Progress management and team coordination"
+                        data-ja="進行管理とチーム連携"
+                      >
+                        Progress management and team coordination
+                      </li>
+                      <li
+                        data-en="Partial frontend development (UI design & implementation)"
+                        data-ja="一部フロントエンド開発（UI設計・実装）"
+                      >
+                        Partial frontend development (UI design &
+                        implementation)
+                      </li>
+                      <li
+                        data-en="Quality assurance and delivery management"
+                        data-ja="品質担保・納期管理"
+                      >
+                        Quality assurance and delivery management
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="project-section">
+                    <h4 data-en="Key Features" data-ja="主な機能">
+                      Key Features
+                    </h4>
+                    <ul>
+                      <li
+                        data-en="Skill listing/purchasing/requests"
+                        data-ja="スキル出品／購入／リクエスト"
+                      >
+                        Skill listing/purchasing/requests
+                      </li>
+                      <li
+                        data-en="Direct messaging system"
+                        data-ja="ダイレクトメッセージ"
+                      >
+                        Direct messaging system
+                      </li>
+                      <li
+                        data-en="Reviews, favorites & follow system"
+                        data-ja="レビュー・お気に入り・フォロー"
+                      >
+                        Reviews, favorites & follow system
+                      </li>
+                      <li
+                        data-en="Stripe payment integration"
+                        data-ja="Stripe連携による決済機能"
+                      >
+                        Stripe payment integration
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="project-technologies">
+                  <h4 data-en="Technologies Used" data-ja="使用技術">
+                    Technologies Used
+                  </h4>
+                  <div class="tech-tags">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">jQuery</span>
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">Stripe</span>
+                    <span class="tech-tag">GitLab</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- HR Attendance System -->
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1497032205916-ac775f0649ae?w=400&h=300&fit=crop"
+                  alt="Business office and HR management"
+                />
+                <div class="project-overlay"></div>
+                <div class="project-header">
+                  <div class="project-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12,6 12,12 16,14" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3
+                      data-en="Cloud HR & Attendance Management System"
+                      data-ja="クラウド型人事・勤怠管理システム"
+                    >
+                      Cloud HR & Attendance Management System
+                    </h3>
+                    <span
+                      class="project-role"
+                      data-en="Frontend Developer & System Analyst"
+                      data-ja="フロントエンド開発・システム分析"
+                      >Frontend Developer & System Analyst</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p
+                  class="project-description"
+                  data-en="Enterprise cloud-based HR and payroll management software for comprehensive employee lifecycle management."
+                  data-ja="企業向けのクラウド型人事・給与管理ソフトウェア。採用から退職までを一元管理できるプラットフォーム。"
+                >
+                  Enterprise cloud-based HR and payroll management software for
+                  comprehensive employee lifecycle management.
+                </p>
+
+                <div class="project-details">
+                  <div class="project-section">
+                    <h4 data-en="Key Responsibilities" data-ja="担当業務">
+                      Key Responsibilities
+                    </h4>
+                    <ul>
+                      <li
+                        data-en="Frontend development for in-house attendance management system"
+                        data-ja="自社運用中の勤怠管理システムのフロントエンド一部開発"
+                      >
+                        Frontend development for in-house attendance management
+                        system
+                      </li>
+                      <li
+                        data-en="Feature selection & proposals based on competitor analysis"
+                        data-ja="他社製品を参考にした機能選定・提案"
+                      >
+                        Feature selection & proposals based on competitor
+                        analysis
+                      </li>
+                      <li
+                        data-en="Progress management and test case creation"
+                        data-ja="進捗管理、テストケース作成"
+                      >
+                        Progress management and test case creation
+                      </li>
+                      <li
+                        data-en="Test execution and quality assurance"
+                        data-ja="テスト実施と品質保証"
+                      >
+                        Test execution and quality assurance
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="project-section">
+                    <h4 data-en="Key Features" data-ja="主な機能">
+                      Key Features
+                    </h4>
+                    <ul>
+                      <li
+                        data-en="Recruitment & onboarding"
+                        data-ja="採用・オンボーディング"
+                      >
+                        Recruitment & onboarding
+                      </li>
+                      <li
+                        data-en="HR information management"
+                        data-ja="人事情報管理"
+                      >
+                        HR information management
+                      </li>
+                      <li data-en="Payroll management" data-ja="給与管理">
+                        Payroll management
+                      </li>
+                      <li
+                        data-en="Attendance & shift management"
+                        data-ja="勤怠・シフト管理"
+                      >
+                        Attendance & shift management
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="project-technologies">
+                  <h4 data-en="Technologies Used" data-ja="使用技術">
+                    Technologies Used
+                  </h4>
+                  <div class="tech-tags">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">Figma</span>
+                    <span class="tech-tag">Docker</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-en="Professional Skills" data-ja="専門スキル">
+              Professional Skills
+            </h2>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-category">
+              <div class="skill-header">
+                <div class="skill-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                    />
+                  </svg>
+                </div>
+                <h3
+                  data-en="Languages & Communication"
+                  data-ja="言語・コミュニケーション"
+                >
+                  Languages & Communication
+                </h3>
+              </div>
+              <div class="skill-tags">
+                <span
+                  class="skill-tag"
+                  data-en="Japanese (Business Level)"
+                  data-ja="日本語（ビジネスレベル）"
+                  >Japanese (Business Level)</span
+                >
+                <span
+                  class="skill-tag"
+                  data-en="English (Native)"
+                  data-ja="英語（ネイティブ）"
+                  >English (Native)</span
+                >
+                <span
+                  class="skill-tag"
+                  data-en="Cross-cultural Communication"
+                  data-ja="異文化コミュニケーション"
+                  >Cross-cultural Communication</span
+                >
+                <span
+                  class="skill-tag"
+                  data-en="Client Relations"
+                  data-ja="クライアント関係"
+                  >Client Relations</span
+                >
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <div class="skill-header">
+                <div class="skill-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                </div>
+                <h3 data-en="Project Management" data-ja="プロジェクト管理">
+                  Project Management
+                </h3>
+              </div>
+              <div class="skill-tags">
+                <span
+                  class="skill-tag"
+                  data-en="Meeting Facilitation"
+                  data-ja="会議進行"
+                  >Meeting Facilitation</span
+                >
+                <span
+                  class="skill-tag"
+                  data-en="Requirement Hearing"
+                  data-ja="要件ヒアリング"
+                  >Requirement Hearing</span
+                >
+                <span
+                  class="skill-tag"
+                  data-en="Team Coordination"
+                  data-ja="チーム調整"
+                  >Team Coordination</span
+                >
+                <span
+                  class="skill-tag"
+                  data-en="Project Direction"
+                  data-ja="プロジェクト指導"
+                  >Project Direction</span
+                >
+                <span
+                  class="skill-tag"
+                  data-en="Client Communication"
+                  data-ja="クライアントコミュニケーション"
+                  >Client Communication</span
+                >
+                <span
+                  class="skill-tag"
+                  data-en="jira"
+                  data-ja="Jira"
+                  >Jira</span
+                >
+                <span
+                  class="skill-tag"
+                  data-en="Web Direction"
+                  data-ja="Webディレクション"
+                  >Web Direction</span
+                >
+                
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <div class="skill-header">
+                <div class="skill-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="16,18 22,12 16,6" />
+                    <polyline points="8,6 2,12 8,18" />
+                  </svg>
+                </div>
+                <h3 data-en="Frontend Development" data-ja="フロントエンド開発">
+                  Frontend Development
+                </h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">jQuery</span>
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag">Material UI</span>
+                <span class="skill-tag">Bootstrap</span>
+                <span class="skill-tag">Wordpress</span>
+                <span
+                  class="skill-tag"
+                  data-en="Responsive Design"
+                  data-ja="レスポンシブデザイン"
+                  >Responsive Design</span
+                >
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <div class="skill-header">
+                <div class="skill-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                    />
+                  </svg>
+                </div>
+                <h3 data-en="Design & Tools" data-ja="デザイン・ツール">
+                  Design & Tools
+                </h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">Adobe Illustrator</span>
+                <span
+                  class="skill-tag"
+                  data-en="UI/UX Design"
+                  data-ja="UI/UXデザイン"
+                  >UI/UX Design</span
+                >
+
+                <span
+                  class="skill-tag"
+                  data-en="Design Systems"
+                  data-ja="デザインシステム"
+                  >Design Systems</span
+                >
+                <span
+                  class="skill-tag"
+                  data-en="Photoshop"
+                  data-ja="Photoshop"
+                  >Photoshop</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div class="education-section">
+            <h3 class="education-title" data-en="Certifications" data-ja="資格">
+              Certifications
+            </h3>
+            <div class="section-divider"></div>
+
+            <div class="education-grid">
+              <div class="education-card">
+                <img
+                  src="https://www.jlpt.jp/resource/img_common/logo.gif"
+                  class="jlpt"
+                  alt=""
+                />
+                <h3
+                  data-en="Japanese Language Proficiency"
+                  data-ja="日本語能力試験認定"
+                >
+                  Japanese Language Proficiency
+                </h3>
+                <p
+                  data-en="Business Level Certification"
+                  data-ja="ビジネスレベル認定・一級保持"
+                >
+                  Business Level Certification
+                </p>
+                <span class="education-period">2015年</span>
+              </div>
+              <div class="education-card">
+                <img
+                  src="https://www.iibc-global.org/hubfs/common/images/logo.png"
+                  class="toiec"
+                  alt=""
+                />
+                <h3 data-en="scored 798 marks" data-ja="798点取得">
+                  Project Management Certification
+                </h3>
+                <p data-en="business Level" data-ja="ビジネスレベル">
+                  business Level
+                </p>
+                <span class="education-period">2015年</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 data-en="Let's Work Together" data-ja="一緒に働きませんか？">
+            Let's Work Together
+          </h2>
+          <p
+            class="contact-description"
+            data-en="Ready to bridge the gap between your vision and reality? Let's discuss how I can help your international projects succeed."
+            data-ja="あなたのビジョンを現実へ！国際プロジェクト成功への最適なパートナーになります。まずはお話ししませんか？"
+          >
+            Ready to bridge the gap between your vision and reality? Let's
+            discuss how I can help your international projects succeed.
+          </p>
+
+          <div class="contact-buttons">
+            <a href="kc_hebin2004@gmail.com" class="btn btn-white btn-lg">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              <span data-en="Start a Conversation" data-ja="会話を始める">
+                Start a Conversation
+              </span>
+            </a>
+            <!-- <button class="btn btn-outline-white btn-lg">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7,10 12,15 17,10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              <span data-en="Download Resume" data-ja="履歴書ダウンロード"
+                >Download Resume</span
+              >
+            </button> -->
+          </div>
+
+          <div class="social-links">
+            <a href="kchebin_2004@gmail.com" class="social-link">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/hebenkhatri/"
+              target="_blank"
+              class="social-link"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a
+              href="https://www.facebook.com/hebinkc"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                width="24"
+                height="24"
+              >
+                <path
+                  d="M22.675 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.407.593 24 1.325 24H12.82v-9.294H9.692V11.01h3.128V8.414c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.797.143v3.24h-1.918c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.696h-3.12V24h6.116c.73 0 1.324-.593 1.324-1.326V1.326C24 .593 23.407 0 22.675 0z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p
+          data-en="© 2024 Hevendra Khatri. Bridging cultures, delivering excellence."
+          data-ja="© 2024 へべンドラ　カトリ. 文化の架け橋、卓越性の実現。"
+        >
+          © 2024 Hevendra Khatri. Bridging cultures, delivering excellence.
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
