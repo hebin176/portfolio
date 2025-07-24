@@ -564,3 +564,10 @@ document.addEventListener('DOMContentLoaded', createScrollProgress);
 
 console.log('Portfolio script loaded successfully! 🚀');
 
+document.addEventListener('DOMContentLoaded', function () {
+  const hamburger = document.getElementById('hamburger-btn');
+  const nav = document.querySelector('.nav');
+  hamburger.addEventListener('click', function () {
+    nav.classList.toggle('open');
+  });
+});

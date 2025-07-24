@@ -86,7 +86,11 @@ body {
     font-weight: 600;
     font-size: 0.875rem;
 }
-
+@media (max-width: 768px) {
+    .logo-icon {
+        height: 33px;
+    }
+}
 .logo-text {
     font-weight: 600;
     color: #1f2937;
@@ -97,6 +101,11 @@ body {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+ @media (min-width: 768px) and (max-width: 992px) {
+ .nav{
+    gap:1rem
+ }
 }
 
 .nav a {
@@ -144,6 +153,12 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     font-size: 0.875rem;
+      height: 33px;
+}
+@media (max-width: 768px) {
+    .language-toggle {
+        width: 120px;
+    }
 }
 
 .language-toggle:hover {
@@ -359,6 +374,12 @@ body {
     animation: fadeInUp 1s ease 0.3s both;
 }
 
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 25px;
+    }
+}
+
 .hero-subtitle-wrapper {
     display: flex;
     align-items: center;
@@ -397,6 +418,11 @@ body {
     /* アニメーション */
     opacity: 0;
     animation: fadeInUp 1s ease 0.7s forwards;
+}
+@media (max-width: 768px) {
+    .hero-description.hero-description{
+       font-size: 18px;
+    }
 }
 
 /* フェードイン＋スライドアップアニメーション */
@@ -474,9 +500,20 @@ section {
     padding: 5rem 0;
 }
 
+@media (max-width: 768px) {
+    section {
+       padding: 2rem 0;
+    }
+}
+
 .section-header {
     text-align: center;
     margin-bottom: 4rem;
+}
+@media (max-width: 768px) {
+    .section-header {
+        margin-bottom: 1rem;
+    }
 }
 
 .section-header h2 {
@@ -492,6 +529,11 @@ section {
     max-width: 48rem;
     margin: 0 auto 1rem;
     margin-top: 2rem;
+}
+@media (max-width: 768px) {
+    .section-subtitle {
+        font-size: 15px;
+    }
 }
 
 .section-divider {
@@ -521,7 +563,7 @@ section {
 
 
 .about-paragraph {
-    font-size: 1.125rem;
+    font-size: 15px;
     color: #6b7280;
     line-height: 1.7;
     margin-bottom: 1.5rem;
@@ -662,6 +704,11 @@ section {
   gap: 1.5rem;
   padding: 2rem;
 }
+@media (max-width: 768px) {
+    .experience-content {
+        padding: 1rem;
+    }
+}
 
 @media (min-width: 1024px) {
   .experience-content {
@@ -741,6 +788,11 @@ section {
   color: #4b5563;
   font-size: 0.95rem;
   transition: color 0.3s ease;
+}
+@media (max-width: 768px) {
+    .experience-highlights li{
+        font-size: 13px;
+    }
 }
 
 .experience-highlights li::before {
@@ -1039,6 +1091,11 @@ section {
     color: #111827;
     margin: 0;
 }
+@media (max-width: 768px) {
+    .skill-header h3 {
+        font-size: 16px;
+    }
+}
 
 .skill-tags {
     padding: 0 1.5rem 1.5rem;
@@ -1247,6 +1304,11 @@ section {
 .ja .hero-subtitle {
     font-size: 1.125rem;
 }
+@media (max-width: 768px) {
+    .ja .hero-subtitle {
+       font-size: 15px;
+    }
+}
 
 .ja .service-card h3,
 .ja .experience-header h3 {
@@ -1260,7 +1322,7 @@ section {
 }
 
 .ja .project-section li {
-    font-size: 0.75rem;
+    font-size: 13px;
 }
 
 .ja .stat-label {
@@ -1272,6 +1334,8 @@ section {
     .nav {
         display: none;
     }
+
+   
     
     .container {
         padding: 0 1rem;
@@ -1282,7 +1346,7 @@ section {
     }
     
     .btn {
-        width: 100%;
+        width: 60%;
         justify-content: center;
     }
     
